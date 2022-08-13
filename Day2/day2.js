@@ -70,3 +70,11 @@ console.log(myCar)                // output==> { color: 'red' }
 
 // // get model's value using dot notation
 console.log(myCar.model) // output ==>BMW X5
+
+let student = new Object()
+student.name = "Deepak"
+student.age = "24"
+student.subjects = {eng:25,hindi:56}
+student.highestEducation = "Btech"
+
+console.log(student)
