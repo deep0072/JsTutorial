@@ -148,7 +148,7 @@ let result = sum(3,4,67,7,6,32,656)
 console.log(result, "result")
 
 
-function sum(a,b,c){
+function sum(a,b,c){ //here spread operator become destructured in to variable
     let result = a+b+c
     
     return result
