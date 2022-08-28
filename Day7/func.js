@@ -6,21 +6,22 @@
 /*lets say a function that adding two number after its result 
 a second function should be triggered that send some repsonse after getting rsult from first function  */
 
+
 //higherOrder function ==> Functions in which the function is passed as the parameter is called higher order function
 
-// function Add(a,b, handle){
-//     let result  = a + b
+function Add(a,b, handle){
+    let result  = a + b
 
-//     handle(result) // handle is callback function 
-// }
+    handle(result) // handle is callback function 
+}
 
-// function getRequest(result){
-//     console.log(`getting result ${result}`)
-// }
+function getRequest(result){
+    console.log(`getting result ${result}`)
+}
 
 
-// let result = Add(5,4,getRequest) // add is the higher order function that cause the trigger of call back function which is getRequest
-// console.log(result)
+let result = Add(5,4,getRequest) // add is the higher order function that cause the trigger of call back function which is getRequest
+console.log(result)
 
 
 /*a closure==> gives you access to an outer function's scope from an inner function.
