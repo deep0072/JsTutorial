@@ -5,7 +5,7 @@
 
 let promise = () => {
   setTimeout(() => {
-    console.log("boil water"); // wait for 10 second then print this line
+    console.log("boil water"); // wait  for 10 second then print this line
     setTimeout(() => {
       console.log("add kofee powder"); // after 10 second this function is called wait for 2 second
       setTimeout(() => {
